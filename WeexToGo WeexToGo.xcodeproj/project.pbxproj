@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9D79DD6FDB0F99890C56CE /* Pods_WeexToGo_WeexToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E6C674635FAB2F47C51370 /* Pods_WeexToGo_WeexToGo.framework */; };
+		F2FB97A11E20A6C600A5950A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB97A01E20A6C600A5950A /* AppDelegate.swift */; };
+		F2FB97A31E20A6C600A5950A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB97A21E20A6C600A5950A /* ViewController.swift */; };
+		F2FB97A61E20A6C600A5950A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB97A41E20A6C600A5950A /* Main.storyboard */; };
+		F2FB97A81E20A6C600A5950A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FB97A71E20A6C600A5950A /* Assets.xcassets */; };
+		F2FB97AB1E20A6C600A5950A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB97A91E20A6C600A5950A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289ED80BA8C137BC43E5AEF1 /* Pods-WeexToGo WeexToGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexToGo WeexToGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexToGo WeexToGo/Pods-WeexToGo WeexToGo.release.xcconfig"; sourceTree = "<group>"; };
+		B8E6C674635FAB2F47C51370 /* Pods_WeexToGo_WeexToGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeexToGo_WeexToGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB979D1E20A6C600A5950A /* WeexToGo WeexToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeexToGo WeexToGo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB97A01E20A6C600A5950A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2FB97A21E20A6C600A5950A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2FB97A51E20A6C600A5950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2FB97A71E20A6C600A5950A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FB97AA1E20A6C600A5950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2FB97AC1E20A6C600A5950A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F79895F0E7BEF850A6078 /* Pods-WeexToGo WeexToGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexToGo WeexToGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexToGo WeexToGo/Pods-WeexToGo WeexToGo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FB979A1E20A6C600A5950A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D79DD6FDB0F99890C56CE /* Pods_WeexToGo_WeexToGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0116F3690C1262B983543EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8E6C674635FAB2F47C51370 /* Pods_WeexToGo_WeexToGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E959857C4F470D8FB7472D76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89F79895F0E7BEF850A6078 /* Pods-WeexToGo WeexToGo.debug.xcconfig */,
+				289ED80BA8C137BC43E5AEF1 /* Pods-WeexToGo WeexToGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2FB97941E20A6C600A5950A = {
+			isa = PBXGroup;
+			children = (
+				F2FB979F1E20A6C600A5950A /* WeexToGo WeexToGo */,
+				F2FB979E1E20A6C600A5950A /* Products */,
+				E959857C4F470D8FB7472D76 /* Pods */,
+				C0116F3690C1262B983543EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FB979E1E20A6C600A5950A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB979D1E20A6C600A5950A /* WeexToGo WeexToGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FB979F1E20A6C600A5950A /* WeexToGo WeexToGo */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB97A01E20A6C600A5950A /* AppDelegate.swift */,
+				F2FB97A21E20A6C600A5950A /* ViewController.swift */,
+				F2FB97A41E20A6C600A5950A /* Main.storyboard */,
+				F2FB97A71E20A6C600A5950A /* Assets.xcassets */,
+				F2FB97A91E20A6C600A5950A /* LaunchScreen.storyboard */,
+				F2FB97AC1E20A6C600A5950A /* Info.plist */,
+			);
+			path = "WeexToGo WeexToGo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FB979C1E20A6C600A5950A /* WeexToGo WeexToGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB97AF1E20A6C600A5950A /* Build configuration list for PBXNativeTarget "WeexToGo WeexToGo" */;
+			buildPhases = (
+				9D5315C9B462E33B6954F853 /* [CP] Check Pods Manifest.lock */,
+				F2FB97991E20A6C600A5950A /* Sources */,
+				F2FB979A1E20A6C600A5950A /* Frameworks */,
+				F2FB979B1E20A6C600A5950A /* Resources */,
+				E3A76171B671E36D12A24043 /* [CP] Embed Pods Frameworks */,
+				8D0B370394E996838638E8CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeexToGo WeexToGo";
+			productName = "WeexToGo WeexToGo";
+			productReference = F2FB979D1E20A6C600A5950A /* WeexToGo WeexToGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FB97951E20A6C600A5950A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FsThatOne;
+				TargetAttributes = {
+					F2FB979C1E20A6C600A5950A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2ZD2CZ782K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2FB97981E20A6C600A5950A /* Build configuration list for PBXProject "WeexToGo WeexToGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FB97941E20A6C600A5950A;
+			productRefGroup = F2FB979E1E20A6C600A5950A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FB979C1E20A6C600A5950A /* WeexToGo WeexToGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FB979B1E20A6C600A5950A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB97AB1E20A6C600A5950A /* LaunchScreen.storyboard in Resources */,
+				F2FB97A81E20A6C600A5950A /* Assets.xcassets in Resources */,
+				F2FB97A61E20A6C600A5950A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D0B370394E996838638E8CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexToGo WeexToGo/Pods-WeexToGo WeexToGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5315C9B462E33B6954F853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A76171B671E36D12A24043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexToGo WeexToGo/Pods-WeexToGo WeexToGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FB97991E20A6C600A5950A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB97A31E20A6C600A5950A /* ViewController.swift in Sources */,
+				F2FB97A11E20A6C600A5950A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2FB97A41E20A6C600A5950A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB97A51E20A6C600A5950A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FB97A91E20A6C600A5950A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB97AA1E20A6C600A5950A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2FB97AD1E20A6C600A5950A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2FB97AE1E20A6C600A5950A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FB97B01E20A6C600A5950A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89F79895F0E7BEF850A6078 /* Pods-WeexToGo WeexToGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ZD2CZ782K;
+				INFOPLIST_FILE = "WeexToGo WeexToGo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FsThatOne.TestDemos.WeexToGo-WeexToGo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2FB97B11E20A6C600A5950A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289ED80BA8C137BC43E5AEF1 /* Pods-WeexToGo WeexToGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ZD2CZ782K;
+				INFOPLIST_FILE = "WeexToGo WeexToGo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FsThatOne.TestDemos.WeexToGo-WeexToGo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FB97981E20A6C600A5950A /* Build configuration list for PBXProject "WeexToGo WeexToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB97AD1E20A6C600A5950A /* Debug */,
+				F2FB97AE1E20A6C600A5950A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FB97AF1E20A6C600A5950A /* Build configuration list for PBXNativeTarget "WeexToGo WeexToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB97B01E20A6C600A5950A /* Debug */,
+				F2FB97B11E20A6C600A5950A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2FB97951E20A6C600A5950A /* Project object */;
+}
